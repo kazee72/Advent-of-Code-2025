@@ -10,3 +10,22 @@ Cargo.lock
 
 # MSVC Windows builds of rustc generate these, which store debugging information
 *.pdb
+
+# Incremental compilation artifacts
+**/*.rmeta
+**/deps/
+**/incremental/
+**/.fingerprint/
+
+# Build artifacts
+**/debug/
+**/release/
+**/build/
+**/*.d
+**/*.rlib
+**/*.so
+**/*.dylib
+**/*.dll
+
+# Output binaries
+**/output-bin-*
