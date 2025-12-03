@@ -30,3 +30,22 @@ Cargo.lock
 # Rust Analyzer
 .rustc_info.json
 rust-project.json
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Debug files
+CACHEDIR.TAG
+stderr
+stdout
+
+# Rust-specific
+**/*.rs.bk
+*.pdb
