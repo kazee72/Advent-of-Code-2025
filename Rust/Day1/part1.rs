@@ -20,7 +20,7 @@ fn parse() -> Vec<(String, i32)> {
 
 
 fn main() {
-    let rotations = parse();
+    let rotations: Vec<(String, i32)> = parse();
     let dial: Vec<u32> = (0..100).collect();
     let mut counter: u32 = 0;
     let mut current_pos: i32 = 50;
