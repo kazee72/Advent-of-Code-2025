@@ -27,5 +27,6 @@ Cargo.lock
 **/*.dylib
 **/*.dll
 
-# Output binaries
-**/output-bin-*
+# Rust Analyzer
+.rustc_info.json
+rust-project.json
