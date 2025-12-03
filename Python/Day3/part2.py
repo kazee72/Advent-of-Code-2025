@@ -1,4 +1,5 @@
 from part1 import parse
+import time
 
 
 
@@ -19,6 +20,7 @@ def get_largest(bank: list, start_indx: int, num_left: int, result: str):
     
 
 def main():
+    start = time.time()
     banks = parse()
     result = 0
 
@@ -27,6 +29,8 @@ def main():
         result += int(largest)
 
     print(result)
+    end = time.time()
+    print(end - start)
 
     
 
